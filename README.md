@@ -81,7 +81,7 @@ Clone this repository to your desired folder:
 
 
 ```sh
-  git clone git@github.com:mailsg/myportfolio.git
+  git clone https://github.com/mailsg/myportfolio.git
   cd myportfolio
 ```
 
