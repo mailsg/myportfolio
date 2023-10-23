@@ -7,7 +7,7 @@ function Home() {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="h-screen w-full bg-gradient-to-br from-gray-900 via-gray-700 to-gray-300"
     >      
     </div>
   );
