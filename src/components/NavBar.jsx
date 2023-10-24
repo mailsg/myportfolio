@@ -44,7 +44,7 @@ function NavBar() {
             className="px-4 cursor-pointer
           capitalize
           font-medium
-          text-gray-500
+          text-white
           hover:scale-105duration-200"
           >
             <Link to={link} smooth duration={500}>
