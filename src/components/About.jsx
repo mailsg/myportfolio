@@ -12,13 +12,13 @@ const About = () => {
             About Me
           </p>
         </div>
-        <p className="mb-3 text-gray-500 dark:text-gray-400 ">
+        <p className="mb-3 text-white-500 dark:text-white-400 ">
           I am a Web Developer. I can help you build a product,
           feature or website. Look through some of my work and
           experience. If you like what you see and have a project you
           need coded, don't hesitate to contact me.
         </p>
-        <p className="text-gray-500 dark:text-gray-400">
+        <p className="text-white-500 dark:text-white-400">
         Ready to Transform Your Vision into Reality?<br />
         Are you envisioning a cutting-edge website, pioneering features, or a groundbreaking product?<br /><br />
         Look no further. I am here to turn your dreams into digital masterpieces. 
