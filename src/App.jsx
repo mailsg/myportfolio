@@ -7,7 +7,7 @@ import Skill from './components/Skill';
 import Contact from './components/Contact';
 import Social from './components/Social';
 
-function App() {
+const App = () => {
   return (
     <>
       <NavBar />
