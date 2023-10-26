@@ -106,7 +106,7 @@ const Portfolio = () => {
         },
         {
             id: 8,
-            title: `Intl' Summit Brochure`,
+            title: `International Summit Portal`,
             src: ishwt,
             description: `This project showcases a website for an event called International Summit on Health & Wellness Tourism 2023.`,
 
@@ -114,7 +114,7 @@ const Portfolio = () => {
         },
         {
             id: 9,
-            title: `Math-Magicians App`,
+            title: `Math-Magicians`,
             src: math,
             description: `Math-Magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to, make simple calculations and read a random math-related quote.`,
 
