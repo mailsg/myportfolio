@@ -7,7 +7,6 @@ const Social = () => {
             <SocialIcon url='https://github.com/mailsg' target='_blank' bgColor='transparent' />
             <SocialIcon url='https://www.linkedin.com/in/sandeep0912' target='_blank' bgColor='transparent'/>
             <SocialIcon url='mailto:mailsg0912@gmail.com' network='email' label='Mail me' target='_blank' bgColor='transparent'/>
-            {/* <SocialIcon url='https://drive.google.com/uc?export=download&id=1VQf3Bl_UHgNjda3mZMhaq5BPf0EWtOEq' network='dropbox' label='My Resume' target='_blank' /> */}
         </div>
     )
 }

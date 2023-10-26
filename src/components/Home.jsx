@@ -1,6 +1,5 @@
 import React from "react";
 import TechStack from "../assets/skills/tech-stack.jpg";
-import Portfolio from "./Portfolio";
 
 const Home = () => {
   return (
