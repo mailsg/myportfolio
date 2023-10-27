@@ -2,12 +2,11 @@ import React, { useState } from 'react';
 import appointment from '../assets/projects/appointment.png';
 import blog from '../assets/projects/blog.jpg';
 import expense from '../assets/projects/expense.png';
-import recipe from '../assets/projects/recipe.jpg';
+import recipe from '../assets/projects/recipe.png';
 import metrics from '../assets/projects/metrics.png';
 import space from '../assets/projects/space.png';
 import movie from '../assets/projects/movie.png';
 import ishwt from '../assets/projects/ISHWT.png';
-// import portfolio from '../assets/projects/portfolio.png';
 import math from '../assets/projects/math.png';
 import '../App.css';
 
@@ -136,11 +135,11 @@ const Portfolio = () => {
             </div>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
               {portfolio.map(({ id, title, src, code }) => (
-                <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+                <div key={id} className="shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105 cursor-pointer">
                   <img
                     src={src}
                     alt=""
-                    className="rounded-md duration-200 hover:scale-105 w-full h-48 object-cover"
+                    className="rounded-md w-full h-48 object-fill"
                     // onClick={() => openModal(id)}
                   />
                   <div className="flex items-center justify-center flex-col">
