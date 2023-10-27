@@ -3,3 +3,41 @@
 .max-profile-width {
   max-width: 13rem;
 }
+
+@media only screen and (max-width: 767px) {
+  .home {
+    margin-top: 0rem;
+    margin-left: 9.5rem;
+    font-size: 15px;
+    width: 20rem;
+  }
+
+  .home h2 {
+    font-size: 34px;
+  }
+
+  .mob_social {
+    /* display: flex!important;
+    flex-direction: row!important;
+    position: fixed!important;
+    justify-content: center;
+    align-items: center;
+    margin: 0 11.5rem;
+    margin-top: 13rem; */
+    display: none!important;
+  }
+
+  .mob_pf {
+    width: 10rem!important;
+  }
+
+  .mob_about {
+    margin-top: 0rem;
+  }
+
+  .mob_about_p {
+    margin-left: -1.5rem;
+    width: 22.5rem;
+    font-size: 15px;
+  }
+}

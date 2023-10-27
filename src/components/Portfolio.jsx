@@ -9,6 +9,7 @@ import movie from '../assets/projects/movie.png';
 import ishwt from '../assets/projects/ISHWT.png';
 // import portfolio from '../assets/projects/portfolio.png';
 import math from '../assets/projects/math.png';
+import '../App.css';
 
 const Portfolio = () => {
 
@@ -150,7 +151,7 @@ const Portfolio = () => {
                         
                     </p>
                     <button
-                      className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-gradient-to-t from-cyan-500 to-blue-500 rounded-md"
+                      className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-gradient-to-t from-cyan-500 to-blue-500 rounded-md mob_pf"
                       onClick={() => window.open(code)}
                     >
                       Source Code
