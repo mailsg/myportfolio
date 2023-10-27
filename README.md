@@ -22,7 +22,7 @@
 # 📖 Portfolio <a name="about-project"></a>
 
 
-**My Portfolio** is my profile website showcasing my works in full stack web development.
+Welcome to **My Portfolio** site, your gateway to exploring my digital journey. Here, I've curated a collection of my finest work, a blend of creativity and innovation. Dive into a showcase of projects that reflect my dedication to clean code, accessible design, and problem-solving through technology. Join me on this visual voyage and witness the world through my digital lens.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -38,7 +38,7 @@
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://nodejs.org/en">NodeJS</a></li>
+    <li><a href="https://vitejs.dev/">ViteJS</a></li>
   </ul>
 </details>
 
