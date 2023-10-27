@@ -17,12 +17,27 @@
   }
 
   .mob_social {
-    display: flex!important;
+    /* display: flex!important;
     flex-direction: row!important;
     position: fixed!important;
     justify-content: center;
     align-items: center;
     margin: 0 11.5rem;
-    margin-top: 13rem;
+    margin-top: 13rem; */
+    display: none!important;
+  }
+
+  .mob_pf {
+    width: 10rem!important;
+  }
+
+  .mob_about {
+    margin-top: 0rem;
+  }
+
+  .mob_about_p {
+    margin-left: -1.5rem;
+    width: 22.5rem;
+    font-size: 15px;
   }
 }

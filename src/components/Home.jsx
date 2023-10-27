@@ -1,6 +1,5 @@
 import React from "react";
 import TechStack from "../assets/skills/tech-stack.jpg";
-import Social from "../components/Social";
 import '../App.css';
 
 const Home = () => {

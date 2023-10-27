@@ -25,22 +25,22 @@ const Skill = () => {
     },
     {
       id: 3,
+      src: github,
+      title: "GitHub",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 4,
       src: javascript,
       title: "JavaScript",
       style: "shadow-yellow-500",
     },
     {
-      id: 4,
+      id: 5,
       src: reactPic,
       title: "React",
       style: "shadow-blue-600",
-    },
-    {
-      id: 5,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-400",
-    },
+}    ,
     {
       id: 6,
       src: postgres,
