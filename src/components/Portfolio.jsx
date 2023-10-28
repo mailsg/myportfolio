@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
+import Modal from './Modal';
 import appointment from '../assets/projects/appointment.png';
 import blog from '../assets/projects/blog.jpg';
 import expense from '../assets/projects/expense.png';
-import recipe from '../assets/projects/recipe.jpg';
+import recipe from '../assets/projects/recipe.png';
 import metrics from '../assets/projects/metrics.png';
 import space from '../assets/projects/space.png';
 import movie from '../assets/projects/movie.png';
 import ishwt from '../assets/projects/ISHWT.png';
-// import portfolio from '../assets/projects/portfolio.png';
 import math from '../assets/projects/math.png';
 import '../App.css';
 
@@ -122,6 +122,20 @@ const Portfolio = () => {
             code: 'https://github.com/mailsg/Math-Magicians', 
         },
     ];
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const [selectProject, setSelectProject] = useState(null);
+
+    const openModal = (id) => {
+        setSelectProject(portfolio.find((project) => project.id === id));
+        setIsModalOpen(true);
+    };
+
+    const closeModal = () => {
+        setIsModalOpen(false);
+    };
+
+
     return (
         <div
           name="portfolio" 
@@ -136,32 +150,31 @@ const Portfolio = () => {
             </div>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
               {portfolio.map(({ id, title, src, code }) => (
-                <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+                <div key={id} className="shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105">
                   <img
                     src={src}
                     alt=""
-                    className="rounded-md duration-200 hover:scale-105 w-full h-48 object-cover"
-                    // onClick={() => openModal(id)}
+                    className="rounded-md w-full h-48 object-fill"
                   />
                   <div className="flex items-center justify-center flex-col">
-                    <p className="text-center text-xl font-medium py-4" 
-                        style={{ fontFamily: 'Montserrat, sans-serif' }} >
+                    <p className="text-center text-xl font-medium py-4 text-gray-400 underline" 
+                        style={{ fontFamily: 'Montserrat, sans-serif' }}                    >
                         
-                        {title}
-                        
+                      {title}
+
                     </p>
                     <button
                       className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-gradient-to-t from-cyan-500 to-blue-500 rounded-md mob_pf"
-                      onClick={() => window.open(code)}
+                      onClick={() => openModal(id)} 
                     >
-                      Source Code
+                      View
                     </button>
                   </div>
                 </div>
               ))}
             </div>
           </div>
-          {/* {isModalOpen && <Modal project={selectProject} onClose={closeModal} />} */}
+          {isModalOpen && <Modal project={selectProject} onClose={closeModal} />}
         </div>
       );
     };
