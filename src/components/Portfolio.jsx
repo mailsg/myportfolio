@@ -19,20 +19,16 @@ const Portfolio = () => {
             title: `Appointment Booking App`,
             src: appointment,
             description: `A user-friendly app designed to transform the way you discover and interact with service providers, in our case, doctors. MediMate is your digital companion, 
-                        offering an intuitive and efficient platform that connects you with the best healthcare professionals. 
-                        At its core, MediMate is an ingenious fusion of cutting-edge technology. The React-based frontend, fortified with React Redux, 
-                        delivers a seamless and responsive user experience. 
-                        Every interaction feels effortless, making your journey from discovery to engagement a breeze.
-                
-                        On the backend, MediMate relies on the robust and secure Rails framework. We have left no stone un-turned when it comes to ensuring the highest levels of authentication and authorization. 
-                        Your data safety is our top priority.
-                        What sets MediMate apart is its commitment to simplifying your search for healthcare providers. 
-                        Whether you are seeking a specialist, general practitioner, or any other medical service, our platform streamlines the process, allowing you to browse and book appointments with ease. 
-                        It is a bridge between the needs of patients and the expertise of healthcare professionals.
-                    
-                        But MediMate is not just an app; it is an experience. We believe that technology should empower and enrich your life. 
-                        With MediMate, you will discover the convenience of managing your healthcare on your terms. 
-                        Join us on this exciting journey to revolutionize how we interact with healthcare providers.`,
+            offering an intuitive and efficient platform that connects you with the best healthcare professionals.
+            
+            The React-based frontend, fortified with React Redux, delivers a seamless and responsive user experience. 
+            Every interaction feels effortless, making your journey from discovery to engagement a breeze.        
+            
+            On the backend, MediMate relies on the robust and secure Rails framework. We have left no stone un-turned when it comes to ensuring the highest levels of authentication and authorization. 
+            Your data safety is our top priority. 
+            What sets MediMate apart is its commitment to simplifying your search for healthcare providers. 
+            Whether you are seeking a specialist, general practitioner, or any other medical service, our platform streamlines the process, allowing you to browse and book appointments with ease. 
+            It is a bridge between the needs of patients and the expertise of healthcare professionals.`,
 
             code: 'https://github.com/mailsg/medimate-backend', 
         },
@@ -41,9 +37,9 @@ const Portfolio = () => {
             title: `Blog App`,
             src: blog,
             description: `A sophisticated blog app built on the robust Rails framework, featuring essential gems like Devise for user authentication, CanCanCan for authorization, and Capybara for seamless testing. With an elegant and intuitive design, this app empowers bloggers and writers to share their ideas effortlessly. 
-                        Elevate your blogging experience with our Rails-powered blog app and start sharing your thoughts today!
-                        An interactive blog website built using Ruby on Rails, allowing users to create, read, comment on, and like posts.
-                        A simple yet powerful example of web application development.`,
+            Elevate your blogging experience with our Rails-powered blog app and start sharing your thoughts today!
+            An interactive blog website built using Ruby on Rails, allowing users to create, read, comment on, and like posts.
+            A simple yet powerful example of web application development.`,
 
             code: 'https://github.com/mailsg/rails-blog-app', 
         },
@@ -51,9 +47,9 @@ const Portfolio = () => {
             id: 3,
             title: `Expense Tracker`,
             src: expense,
-            description: `The Expense Tracker App, driven by the power of Rails! The app leverages industry-standard gems like Devise for user authentication, CanCanCan for precise authorization, and Capybara for rigorous testing. Seamlessly manage your expenses with this efficient, user-friendly solution. 
-                        With Rails at its core, the app sets a new standard for expense tracking. 
-                        Give it a try and take control of your finances today!`,
+            description: `The Expense Tracker App, driven by the power of Rails! The app leverages industry-standard gems like Devise for user authentication, CanCanCan for precise authorization, and Capybara for rigorous testing. Seamlessly manage your expenses with this efficient, user-friendly solution.
+            With Rails at its core, the app sets a new standard for expense tracking.
+            Give it a try and take control of your finances today!`,
 
             code: 'https://github.com/mailsg/Rails-Budget-App', 
         },
@@ -61,11 +57,11 @@ const Portfolio = () => {
             id: 4,
             title: `Build Your Recipe`,
             src: recipe,
-            description: `Your culinary companion! Organize recipes, ingredients, and your pantry effortlessly. 
-                        Save ingredients, track your kitchen inventory, and craft delightful recipes. 
-                        Plus, easily generate shopping lists based on your recipe needs. 
-                        Share your culinary creations with the world by making recipes public. 
-                        Take the hassle out of meal planning and make cooking a breeze with the Recipe app!`,
+            description: `Your culinary companion! Organize recipes, ingredients, and your pantry effortlessly.
+            Save ingredients, track your kitchen inventory, and craft delightful recipes.
+            Plus, easily generate shopping lists based on your recipe needs.
+            Share your culinary creations with the world by making recipes public.
+            Take the hassle out of meal planning and make cooking a breeze with the Recipe app!`,
 
             code: 'https://github.com/mailsg/Recipe-App', 
         },
@@ -73,7 +69,10 @@ const Portfolio = () => {
             id: 5,
             title: `Know Your Food Metrics`,
             src: metrics,
-            description: `Know Your Food.. Webapp is a mobile web application to check about a list of foods making use of React and Redux.`,
+            description: `Know Your Food.. is a feature-rich mobile web application built with the power of React and Redux.
+            Explore an extensive list of foods, their nutritional facts, origins, and more at your fingertips.
+            This user-friendly app is designed to empower you with knowledge about the foods you consume daily,
+            promoting healthier and informed choices.`,
 
             code: 'https://github.com/mailsg/React-Capstone-Metrics-Webapp', 
         },
@@ -81,7 +80,11 @@ const Portfolio = () => {
             id: 6,
             title: `Space Travelers' Hub`,
             src: space,
-            description: `Space Travelers' Hub is a a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.`,
+            description: `Space Travelers' Hub is your gateway to a cutting-edge web application designed for a pioneering company 
+            in the commercial and scientific space travel industry.
+            With this innovative platform, users can seamlessly book rocket journeys and secure their spots on exclusive space missions, 
+            unlocking a realm of thrilling adventures beyond our world. 
+            It's not just an App; it's your passport to the cosmos. Join us as we venture into the final frontier.`,
 
             code: 'https://github.com/mailsg/React-Capstone-Space-Travellers-Hub', 
         },
@@ -89,19 +92,14 @@ const Portfolio = () => {
             id: 7,
             title: `Movie Collection App`,
             src: movie,
-            description: `The Best Movie Hub project is a dynamic web application that leverages an external API to fetch and display data about movies and shows. 
-                        The core idea behind this project is to create a user-friendly platform that allows users to explore, discover, and interact with their favorite movies and shows. By integrating the API data, 
-                        the web app provides a comprehensive collection of information, including details such as movie titles, genres, ratings.
-                        With this project, the focus is not only on accessing and presenting the API data but also on creating an engaging and intuitive user interface. The web app incorporates a visually appealing design, seamless navigation, and interactive features that enhance the overall user experience. Users can search for specific movies or shows, 
-                        filter content based on genres or ratings, and even create personalized watchlists to keep track of their favorite titles.
+            description: `This is a dynamic web application that leverages an external API to fetch and display data about movies and shows. 
+            The core idea behind this project is to create a user-friendly platform that allows users to explore, discover, and interact with their favorite movies and shows. By integrating the API data, 
+            the web app provides a comprehensive collection of information, including details such as movie titles, genres, ratings.
+            With this project, the focus is not only on accessing and presenting the API data but also on creating an engaging and intuitive user interface. The app incorporates a visually appealing design, seamless navigation, and interactive features that enhance the overall user experience. Users can search for specific movies or shows, 
+            filter content based on genres or ratings, and even create personalized watchlists to keep track of their favorite titles.
 
-                        In terms of development, the project involves working with modern web technologies such as HTML, CSS, and JavaScript.
-
-                        The Best Movie Hub project also offers opportunities for further expansion and customization. Additional features, such as user authentication, user reviews, and recommendations, can be integrated to enhance the overall functionality and personalization of the web app. 
-                        The project's modular structure and well-documented codebase make it easy to iterate, refine, and add new features as desired.
-
-                        Overall, the Best Movie Hub project showcases the ability to utilize an external API effectively, transforming raw data into a visually appealing and user-friendly web application. It demonstrates proficiency in web development, UI/UX design, and data integration. By combining the power of an API with creativity and technical skills, this project opens up endless possibilities for movie enthusiasts to discover, 
-                        explore, and enjoy their favorite films and shows in one centralized hub.`,
+            In terms of development, the project involves working with modern web technologies such as HTML, CSS, JavaScript and RESTful API.
+            The project's modular structure and well-documented codebase make it easy to iterate, refine, and add new features as desired.`,
 
             code: 'https://github.com/mailsg/Module-2-Capstone-Project', 
         },
@@ -109,7 +107,10 @@ const Portfolio = () => {
             id: 8,
             title: `International Summit Portal`,
             src: ishwt,
-            description: `This project showcases a website for an event called International Summit on Health & Wellness Tourism 2023.`,
+            description: `This project is a vibrant and informative website tailored to the prestigious event known as the "International Summit on Health & Wellness Tourism 2023." 
+            Within its digital pages, you will discover a comprehensive platform that perfectly encapsulates the essence and significance of this global gathering. 
+            This web development venture merges creativity and functionality to provide attendees and enthusiasts with an engaging and interactive experience. 
+            It's more than just a website; it's your digital gateway to the future of health and wellness tourism.`,
 
             code: 'https://github.com/mailsg/Capstone-1', 
         },
@@ -117,7 +118,10 @@ const Portfolio = () => {
             id: 9,
             title: `Math-Magicians`,
             src: math,
-            description: `Math-Magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to, make simple calculations and read a random math-related quote.`,
+            description: `Math-Magicians isn't your typical math website; 
+            it's an immersive and user-friendly Single Page App (SPA) designed to captivate the hearts of mathematics enthusiasts. 
+            Dive into a world where you can effortlessly perform calculations and be inspired by a daily dose of intriguing math-related quotes. 
+            It's the perfect digital haven for anyone who finds beauty in numbers and seeks to explore the wonders of mathematics with ease.`,
 
             code: 'https://github.com/mailsg/Math-Magicians', 
         },
@@ -129,10 +133,12 @@ const Portfolio = () => {
     const openModal = (id) => {
         setSelectProject(portfolio.find((project) => project.id === id));
         setIsModalOpen(true);
+        document.body.classList.add('overflow-hidden');
     };
 
     const closeModal = () => {
         setIsModalOpen(false);
+        document.body.classList.remove('overflow-hidden');
     };
 
 
