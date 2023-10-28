@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-scroll';
+import '../App.css';
 
 function NavBar() {
   const [nav, setNav] = useState(false);
@@ -30,8 +31,8 @@ function NavBar() {
     <div className="flex justify-between items-center w-full px-4 h-20 text-white bg-black fixed">
       <div>
         <h1
-          className="text-4xl font-mono ml-2 animate-pulse"
-          style={{ fontFamily: 'Rock Salt' }}
+          className="text-4xl font-mono ml-2 animate-pulse change-color"
+          style={{ fontFamily: 'Caveat' }}
         >
           Sandeep
         </h1>
@@ -66,7 +67,7 @@ function NavBar() {
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize py-6 text-4xl"
+              className="px-4 cursor-pointer capitalize py-6 text-2xl"
             >
               <Link
                 to={link}

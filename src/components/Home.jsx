@@ -1,5 +1,5 @@
 import React from "react";
-import TechStack from "../assets/skills/tech-stack.jpg";
+import Me from "../assets/skills/me.jpg";
 import '../App.css';
 
 const Home = () => {
@@ -32,11 +32,13 @@ const Home = () => {
           </div>
         </div>
         <div className="hidden sm:block">
-          <img
-            src={TechStack}
-            alt="My tech stack"
-            className="h-auto mx-auto max-profile-width rounded-lg transition-all duration-300 filter cursor-pointer hover:grayscale z-0"
-          />
+          <div className="h-auto mx-auto max-profile-width -mt-20">
+            <img
+              src={Me}
+              alt="Me"
+              className="w-full h-full object-cover filter rounded-lg"
+            />
+          </div>
         </div>
       </div> 
     </div>
