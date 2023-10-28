@@ -5,6 +5,10 @@
   max-width: 22rem;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 @media only screen and (max-width: 767px) {
   .home {
     margin-top: 0rem;
