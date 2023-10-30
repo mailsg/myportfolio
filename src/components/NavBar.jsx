@@ -46,7 +46,7 @@ function NavBar() {
           capitalize
           font-medium
           text-white
-          hover:scale-105duration-200"
+          hover:scale-105 duration-200"
           >
             <Link to={link} smooth duration={500}>
               {link}
@@ -63,7 +63,9 @@ function NavBar() {
       </div>
           
       {nav && (
-        <ul className="flex flex-col justify-center items-left absolute top-16 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-300 z-50">
+        <ul className="flex flex-col justify-center items-left absolute top-16 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-300 z-50"
+            style={{ fontFamily: 'Playpen' }}
+        >
           {links.map(({ id, link }) => (
             <li
               key={id}

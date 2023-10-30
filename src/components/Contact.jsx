@@ -8,13 +8,13 @@ const Contact = () => {
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="py-4 flex justify-center flex-col items-center">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500 mt-16">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500 mt-16" style={{ fontFamily: 'Playpen' }}>
             Contact me
           </p>
-          <p className="py-6">
+          <p className="py-6" style={{ fontFamily: 'Playpen Sans' }}>
             If you have an application you are interested in developing, a
             feature that you need built or a project that needs coding, I’d love
-            to help.<br />I am always interested in hearing about new projects, so 
+            to help. I am always interested in hearing about new projects, so 
             if you'd like to chat please get in touch.
           </p>
         </div>
@@ -45,7 +45,8 @@ const Contact = () => {
               rows="8"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
-            <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
+            <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300"
+                    style={{ fontFamily: 'Playpen' }} >
               Get in touch
             </button>
           </form>

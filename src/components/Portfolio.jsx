@@ -149,10 +149,10 @@ const Portfolio = () => {
         >
           <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
             <div className="pb-8 flex justify-center flex-col items-center">
-              <p className="text-4xl font-bold inline border-b-4 border-gray-500 mt-16">
+              <p className="text-4xl font-bold inline border-b-4 border-gray-500 mt-16" style={{ fontFamily: 'Playpen' }}>
                 My Portfolio
               </p>
-              <p className="py-6">Have a look at some of my projects</p>
+              <p className="py-6" style={{ fontFamily: 'Playpen Sans' }}>Have a look at some of my projects</p>
             </div>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
               {portfolio.map(({ id, title, src, code }) => (
@@ -163,8 +163,8 @@ const Portfolio = () => {
                     className="rounded-md w-full h-48 object-fill"
                   />
                   <div className="flex items-center justify-center flex-col">
-                    <p className="text-center text-xl font-medium py-4 text-gray-400 underline" 
-                        style={{ fontFamily: 'Montserrat, sans-serif' }}                    >
+                    <p className="text-center text-xl font-medium py-4" 
+                        style={{ fontFamily: 'Playpen' }}                    >
                         
                       {title}
 
@@ -172,6 +172,7 @@ const Portfolio = () => {
                     <button
                       className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-gradient-to-t from-cyan-500 to-blue-500 rounded-md mob_pf"
                       onClick={() => openModal(id)} 
+                      style={{ fontFamily: 'Playpen' }}
                     >
                       View
                     </button>
