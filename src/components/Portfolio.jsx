@@ -26,9 +26,7 @@ const Portfolio = () => {
             
             On the backend, MediMate relies on the robust and secure Rails framework. We have left no stone un-turned when it comes to ensuring the highest levels of authentication and authorization. 
             Your data safety is our top priority. 
-            What sets MediMate apart is its commitment to simplifying your search for healthcare providers. 
-            Whether you are seeking a specialist, general practitioner, or any other medical service, our platform streamlines the process, allowing you to browse and book appointments with ease. 
-            It is a bridge between the needs of patients and the expertise of healthcare professionals.`,
+            What sets MediMate apart is its commitment to simplifying your search for healthcare providers.`,
 
             code: 'https://github.com/mailsg/medimate-backend', 
         },
@@ -58,6 +56,7 @@ const Portfolio = () => {
             title: `Build Your Recipe`,
             src: recipe,
             description: `Your culinary companion! Organize recipes, ingredients, and your pantry effortlessly.
+            It is a feature-rich mobile web application built with the power of React and Redux and robustness of Rails backend framework.
             Save ingredients, track your kitchen inventory, and craft delightful recipes.
             Plus, easily generate shopping lists based on your recipe needs.
             Share your culinary creations with the world by making recipes public.
@@ -82,7 +81,7 @@ const Portfolio = () => {
             src: space,
             description: `Space Travelers' Hub is your gateway to a cutting-edge web application designed for a pioneering company 
             in the commercial and scientific space travel industry.
-            With this innovative platform, users can seamlessly book rocket journeys and secure their spots on exclusive space missions, 
+            With this innovative platform, built with React Redux and SpaceX API, users can seamlessly book rocket journeys and secure their spots on exclusive space missions, 
             unlocking a realm of thrilling adventures beyond our world. 
             It's not just an App; it's your passport to the cosmos. Join us as we venture into the final frontier.`,
 
@@ -95,9 +94,6 @@ const Portfolio = () => {
             description: `This is a dynamic web application that leverages an external API to fetch and display data about movies and shows. 
             The core idea behind this project is to create a user-friendly platform that allows users to explore, discover, and interact with their favorite movies and shows. By integrating the API data, 
             the web app provides a comprehensive collection of information, including details such as movie titles, genres, ratings.
-            With this project, the focus is not only on accessing and presenting the API data but also on creating an engaging and intuitive user interface. The app incorporates a visually appealing design, seamless navigation, and interactive features that enhance the overall user experience. Users can search for specific movies or shows, 
-            filter content based on genres or ratings, and even create personalized watchlists to keep track of their favorite titles.
-
             In terms of development, the project involves working with modern web technologies such as HTML, CSS, JavaScript and RESTful API.
             The project's modular structure and well-documented codebase make it easy to iterate, refine, and add new features as desired.`,
 
@@ -107,7 +103,8 @@ const Portfolio = () => {
             id: 8,
             title: `International Summit Portal`,
             src: ishwt,
-            description: `This project is a vibrant and informative website tailored to the prestigious event known as the "International Summit on Health & Wellness Tourism 2023." 
+            description: `This project is a vibrant and informative website tailored to the prestigious event known as the "International Summit on Health & Wellness Tourism 2023."
+            It is developed with HTML5, CSS3 and Vanilla JavaScript. 
             Within its digital pages, you will discover a comprehensive platform that perfectly encapsulates the essence and significance of this global gathering. 
             This web development venture merges creativity and functionality to provide attendees and enthusiasts with an engaging and interactive experience. 
             It's more than just a website; it's your digital gateway to the future of health and wellness tourism.`,
@@ -119,7 +116,7 @@ const Portfolio = () => {
             title: `Math-Magicians`,
             src: math,
             description: `Math-Magicians isn't your typical math website; 
-            it's an immersive and user-friendly Single Page App (SPA) designed to captivate the hearts of mathematics enthusiasts. 
+            it's an immersive and user-friendly Single Page App (SPA), powered by React and Redux, designed to captivate the hearts of mathematics enthusiasts. 
             Dive into a world where you can effortlessly perform calculations and be inspired by a daily dose of intriguing math-related quotes. 
             It's the perfect digital haven for anyone who finds beauty in numbers and seeks to explore the wonders of mathematics with ease.`,
 
@@ -163,8 +160,10 @@ const Portfolio = () => {
                     className="rounded-md w-full h-48 object-fill"
                   />
                   <div className="flex items-center justify-center flex-col">
-                    <p className="text-center text-xl font-medium py-4" 
-                        style={{ fontFamily: 'Playpen' }}                    >
+                    <p className="text-center text-xl font-medium py-4 cursor-pointer underline" 
+                        style={{ fontFamily: 'Playpen' }}
+                        onClick={() => window.open(code)}
+                      >
                         
                       {title}
 

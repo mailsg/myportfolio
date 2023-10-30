@@ -10,6 +10,28 @@
   overflow: hidden;
 }
 
+.anime {
+  animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: gray;
+  }
+
+  25% {
+    color: #FFFF00;
+  }
+
+  75% {
+    color: #FF0000;
+  }
+
+  100% {
+    color: #00008B;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .home {
     margin-top: 0rem;
