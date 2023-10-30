@@ -9,7 +9,7 @@ const Modal = ({ project, onClose}) => {
     
             <div className="modal-content py-4 text-left px-6 max-h-96">
               <div className="flex justify-between items-center pb-3">
-                <p className="text-2xl font-bold">{project.title}</p>
+                <p className="text-2xl font-bold" style={{ fontFamily: 'Playpen' }}>{project.title}</p>
                 <div className="modal-close cursor-pointer z-50" onClick={onClose}>
                   <svg
                     className="fill-current text-white"
@@ -22,17 +22,19 @@ const Modal = ({ project, onClose}) => {
                   </svg>
                 </div>
               </div>
-              <p>{project.description}</p>
+              <p style={{ fontFamily: 'Playpen Sans' }}>{project.description}</p>
               <div className="flex justify-end pt-2">
                 <button
                     className="modal-close px-6 p-3 rounded-lg bg-indigo-700"
                     onClick={() => window.open(project.code)}
+                    style={{ fontFamily: 'Playpen' }}
                 >
                     Source Code
                 </button>
                 <button
                   className="text-white shadow-sm  px-6 p-3 rounded-lg bg-red-700 ml-10"
                     onClick={onClose}
+                    style={{ fontFamily: 'Playpen' }}
                 >
                   Close
                 </button>

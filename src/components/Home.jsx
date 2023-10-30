@@ -10,10 +10,10 @@ const Home = () => {
     >   
     <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-around h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center mr-40 h-full home">
-          <h2 className="text-5xl mt-12 sm:mt-0 sm:text-7xl font-bold text-white">
+          <h2 className="text-5xl mt-12 sm:mt-0 sm:text-7xl font-bold text-white"  style={{ fontFamily: 'Playpen' }}>
             Hey There,<br /> I am Sandeep.
           </h2>
-          <p className="text-white py-4 max-w-md">
+          <p className="text-white py-4 max-w-md" style={{ fontFamily: 'Playpen Sans' }}>
             <br />
             I am a Web Developer. I can help you build a product, feature or website. 
             Look through some of my work and experience! 
@@ -25,6 +25,7 @@ const Home = () => {
             href="https://drive.google.com/uc?export=download&id=1linD6DYzYYCceziGptLBWZpp1_VWvieE"
             className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md gap-2 bg-gradient-to-t from-cyan-500 to-blue-500 cursor-pointer"
             download="sandeep-ghosh-resume.pdf"
+            style={{ fontFamily: 'Playpen' }}
           >
             Get My Resume
           </a>

@@ -7,7 +7,10 @@ import reactPic from "../assets/skills/react.png";
 import github from "../assets/skills/github.png";
 import ruby from "../assets/skills/Ruby.png";
 import rails from "../assets/skills/Rails.png";
-import devops from "../assets/skills/devops.jpg";
+import devops from "../assets/skills/devops.png";
+import nodejs from "../assets/skills/nodejs.png";
+import mysql from "../assets/skills/mysql.png"
+import test from "../assets/skills/test.png"
 
 const Skill = () => {
   const techs = [
@@ -26,7 +29,7 @@ const Skill = () => {
     {
       id: 3,
       src: github,
-      title: "GitHub",
+      title: "Git",
       style: "shadow-gray-400",
     },
     {
@@ -65,6 +68,24 @@ const Skill = () => {
       title: "DevOps",
       style: "shadow-teal-700",
     },
+    {
+      id: 10,
+      src: nodejs,
+      title: "NodeJS",
+      style: "shadow-green-700",
+    },
+    {
+      id: 11,
+      src: mysql,
+      title: "MySQL",
+      style: "shadow-cyan-700",
+    },
+    {
+      id: 12,
+      src: test,
+      title: "Test Driven Development",
+      style: "shadow-pink-700",
+    },
   ];
   return (
     <div
@@ -73,10 +94,10 @@ const Skill = () => {
     >      
         <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="py-4 flex justify-center flex-col items-center">
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline mt-16">
+          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline mt-16" style={{ fontFamily: 'Playpen' }}>
             My Skills
           </p>
-          <p className="py-6">
+          <p className="py-6" style={{ fontFamily: 'Playpen Sans' }}>
             Technologies I am well versed with and not limited to.
           </p>
         </div>
@@ -87,7 +108,7 @@ const Skill = () => {
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
               <img src={src} alt="" className="w-20 mx-auto" />
-              <p className="mt-4">{title}</p>
+              <p className="mt-4" style={{ fontFamily: 'Playpen' }}>{title}</p>
             </div>
           ))}
         </div>
